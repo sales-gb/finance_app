@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({super.key});
@@ -17,7 +18,14 @@ class SplashPage extends StatelessWidget {
                 Color(0XFF438883),
               ]),
         ),
-        child: const Text('Casa comigo bequinha?'),
+        child: const Text(
+          'Finance',
+          style: TextStyle(
+            fontSize: 50.0,
+            fontWeight: FontWeight.w700,
+            color: Color(0xFFFFFFFF),
+          ),
+        ),
       ),
     );
   }
